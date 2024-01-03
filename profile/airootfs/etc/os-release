@@ -1,0 +1,12 @@
+NAME="GoonArch"
+PRETTY_NAME="GoonArch Linux"
+ID=goonarch
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/goonarch"
+DOCUMENTATION_URL="$HOME_URL"
+SUPPORT_URL="$HOME_URL"
+BUG_REPORT_URL="$HOME_URL"
+PRIVACY_POLICY_URL="$HOME_URL"
+LOGO=archlinux-logo
