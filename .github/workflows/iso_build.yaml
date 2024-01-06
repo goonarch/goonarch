@@ -24,7 +24,7 @@ jobs:
       run: |
         pacman-ket --init
         pacman --noconfirm -Sy archlinux-keyring
-        pacman --noconfigm -Sy archiso
+        pacman --noconfigm -S archiso
 
     - name: Build ISO
       run: |
