@@ -1,0 +1,34 @@
+name: Build GoonArch ISO
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y archiso
+
+    - name: Build ISO
+      run: |
+        mkdir build_iso
+        cd build_iso
+        cp -r $GITHUB_WORKSPACE/profile* goonarchiso
+        cd goonarchiso
+        sudo mkarchiso -v -w ./work -o ./out ./goonarchiso
+
+    - name: Upload ISO
+      uses: actions/upload-artifact@v2
+      with:
+        name: goonarch-linux-iso
+        path: build_iso/goonarchiso/out/*.iso
