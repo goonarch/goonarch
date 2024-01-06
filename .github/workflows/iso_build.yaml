@@ -2,30 +2,34 @@ name: Build GoonArch ISO
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "*"
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: archlinux:latest
+      options: --privelaged
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Install Dependencies
+    - name: Update Pacman DB
       run: |
-        sudo apt-get update
-        sudo apt-get install -y archiso
+        pacman-ket --init
+        pacman --noconfirm -Sy archlinux-keyring
+        pacman --noconfigm -Sy archiso
 
     - name: Build ISO
       run: |
         mkdir build_iso
         cd build_iso
-        cp -r $GITHUB_WORKSPACE/profile* goonarchiso
+        cp -r $GITHUB_WORKSPACE/profile goonarchiso
         cd goonarchiso
-        sudo mkarchiso -v -w ./work -o ./out ./goonarchiso
+        sudo mkarchiso -v -w ./work -o ./out .
 
     - name: Upload ISO
       uses: actions/upload-artifact@v2
