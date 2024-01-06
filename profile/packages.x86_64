@@ -1,3 +1,4 @@
+## Arch repos
 alsa-utils
 alacritty
 amd-ucode
@@ -83,6 +84,7 @@ linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
+ly
 lynx
 man-db
 man-pages
@@ -205,6 +207,8 @@ xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
+xf86-video-qxl
+xf86-video-vesa
 xf86-video-vmware
 xfce4-settings
 xfsprogs
@@ -213,3 +217,16 @@ xorg-xwayland
 xwaylandvideobridge
 yadm
 zsh
+
+
+## goonarch repo
+bemoji
+catppuccin-cursors-mocha
+catppuccin-gtk-theme
+kvantum-theme-catppuccin-git
+paru
+pywal-16-colors
+nwg-launchers
+nwg-look-bin
+python-haishoku
+ttf-twemoji-color
