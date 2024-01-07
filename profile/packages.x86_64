@@ -22,6 +22,9 @@ clonezilla
 cloud-init
 cryptsetup
 darkhttpd
+dbus
+dbus-python
+dbus-glib
 ddrescue
 dhclient
 dhcpcd
@@ -139,6 +142,9 @@ pipewire-jack
 pipewire-pulse
 playerctl
 plymouth
+polkit
+polkit-kde-agent
+polkit-qt5
 ppp
 pptpclient
 pv
@@ -181,6 +187,7 @@ tpm2-tss
 ttf-jetbrains-mono-nerd
 ttf-meslo-nerd
 udftools
+ufw
 usb_modeswitch
 usbmuxd
 usbutils
