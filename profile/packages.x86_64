@@ -7,6 +7,7 @@ archinstall
 audacious
 b43-fwcutter
 base
+base-devel
 bash
 bat
 bcachefs-tools
@@ -40,8 +41,10 @@ eza
 f2fs-tools
 fastfetch
 fatresize
+feh
 ffmpeg
 ffmpeg4.4
+firefox
 foot
 foot-terminfo
 fsarchiver
@@ -71,6 +74,7 @@ iw
 iwd
 jfsutils
 jq
+kitty
 kitty-terminfo
 kvantum
 less
@@ -138,6 +142,7 @@ plymouth
 ppp
 pptpclient
 pv
+python-psutil
 qemu-guest-agent
 qt5-base
 qt5-wayland
@@ -213,6 +218,7 @@ xf86-video-vmware
 xfce4-settings
 xfsprogs
 xl2tpd
+xorg-xrandr
 xorg-xwayland
 xwaylandvideobridge
 yadm
@@ -225,8 +231,15 @@ catppuccin-cursors-mocha
 catppuccin-gtk-theme
 kvantum-theme-catppuccin-git
 paru
+pfetch
+picom-arian8j2-git
 pywal-16-colors
 nwg-launchers
 nwg-look-bin
+oh-my-zsh-git
+oh-my-zsh-plugin-autosuggestions
+oh-my-zsh-plugin-syntax-highlighting
 python-haishoku
+swww
 ttf-twemoji-color
+zsh-theme-powerlevel10k
