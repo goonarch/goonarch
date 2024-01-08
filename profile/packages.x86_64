@@ -62,6 +62,7 @@ grml-zsh-config
 grep
 grim
 grub
+gtk-layer-shell
 gtk2
 gtk3
 gtk4
@@ -116,6 +117,7 @@ neovim
 network-manager-applet
 networkmanager
 noto-fonts
+noto-fonts-cjk
 nfs-utils
 nilfs-utils
 nmap
@@ -195,6 +197,7 @@ vim
 virtualbox-guest-utils-nox
 vkd3d
 vpnc
+waybar
 wayland
 wezterm-terminfo
 webkit2gtk

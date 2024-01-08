@@ -24,4 +24,17 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/home/goonarch/.local/bin/wallpaper"]="0:0:755"
+  ["/home/goonarch/.local/bin/colorscript"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/clamshell.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/import-gsettings"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/lock.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/powermenu.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/screenshot.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/sleep.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/start-swww.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/start-waybar.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/toggle-mode.sh"]="0:0:755"
+  ["/home/goonarch/.config/hypr/scripts/xdg-nuke.sh"]="0:0:755"
+
 )
